@@ -1,0 +1,9 @@
+public class Arie_Perimetru {
+public double arieCerc ( double raza ) {
+        return raza * raza * 3.14 * 3.14 ;
+    }
+	ds../asd
+    public double perimetruCerc ( double raza ) {
+        return raza * 2 * 3.14 ;
+    }
+}

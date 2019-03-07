@@ -1,0 +1,13 @@
+double suma ( ) {
+int n ;
+double x ;
+double suma ;
+cin >> n ;
+while ( n > 0 )
+{
+cin >> x ;
+suma = suma + x ;
+n = n - 1 ;
+}
+return suma ;
+}

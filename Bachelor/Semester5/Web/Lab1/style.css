@@ -1,0 +1,65 @@
+html, body {margin: 0; height: 100%; overflow: hidden}S
+table,
+th,
+td {
+    border: 2px solid rgb(82, 73, 73);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+};
+hr {
+    border: 2px;    
+}
+
+.text-on-black {
+    margin-left: 20px;
+    color: white;
+}
+
+.main {
+    height: 100%;
+}
+
+.table {
+    height: 40%;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+.toolbar {
+    height: 5%;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+fieldset {
+    margin: 1%;
+    background:rgba(70, 240, 252, 0.295);  
+    border-radius: 5px;  
+}
+
+
+.comment-area {
+    height: 55%;
+    background: rgb(177, 201, 209);
+    margin: 4px;
+    border: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.comment-elements {
+    margin: 4px;
+}
+
+.comments {
+    margin: 10px;
+    height: 60%;
+    overflow-y: scroll;
+}
+
+.comment {
+    background: rgb(63, 148, 182);
+    border-radius: 10px; 
+}

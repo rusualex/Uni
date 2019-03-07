@@ -1,0 +1,19 @@
+public class CMMDC { 
+ public int cmmdc ( int a , int b ) {
+        int georgearemere ;
+        while ( b != 0 ) 
+        {
+            georgearemere = b ;
+            b = a % b ;
+            a = georgearemere ;
+        }
+        return a ;
+    }
+public void main ( String args [ ]  ) {
+CMMDC cmmdc ;
+cmmdc = new CMMDC ( ) ;
+int a = 4 ;
+int b = 12 ;
+System . out . println ( cmmdc . cmmdc ( a , b ) ) ;
+}
+}

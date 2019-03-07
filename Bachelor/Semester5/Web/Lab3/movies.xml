@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<movies>
+    <movie>
+        <titles>The Conjuring</titles>
+        <genre> Horror </genre>
+        <actors>
+            <actor>Will Simit</actor>
+            <actor>Jon Doe</actor>
+        </actors>
+        <date>12.11.2015</date>
+        <duration>1.30h</duration>
+    </movie>
+    <movie>
+        <titles>The Conjuring 2</titles>
+        <genre> Horror </genre>
+        <actors>
+            <actor>Will Simit</actor>
+            <actor>Jon Doe</actor>
+        </actors>
+        <date>12.11.2017</date>
+        <duration>1.40h</duration>
+    </movie>
+    <movie>
+        <titles>The Conjuring</titles>
+        <genre> Horror </genre>
+        <actors>
+            <actor>Will Simit</actor>
+            <actor>Jon Doe</actor>
+        </actors>
+        <date>12.11.2015</date>
+        <duration>1.30h</duration>
+    </movie>
+    <movie>
+        <titles>The Conjuring 2</titles>
+        <genre> Horror </genre>
+        <actors>
+            <actor>Will Simit</actor>
+            <actor>Jon Doe</actor>
+        </actors>
+        <date>12.11.2017</date>
+        <duration>1.40h</duration>
+    </movie>
+
+    <movie>
+        <titles>The Conjuring 2</titles>
+        <genre> Horror </genre>
+        <actors>
+            <actor>Will Simit</actor>
+            <actor>Jon Doe</actor>
+        </actors>
+        <date>12.11.2017</date>
+        <duration>1.40h</duration>
+    </movie>
+
+    <movie>
+        <titles>American Pie</titles>
+        <genre> Comedy </genre>
+        <actors>
+            <actor>Jonny Bravo</actor>
+            <actor>mircea Bravo</actor>
+        </actors>
+        <date>12.01.2000</date>
+        <duration>1.50h</duration>
+    </movie>
+
+    <movie>
+        <titles>American Pie 3</titles>
+        <genre> Comedy </genre>
+        <actors>
+            <actor>Nelson Mandela</actor>
+            <actor>mircea Bravo</actor>
+        </actors>
+        <date>12.01.2000</date>
+        <duration>1.50h</duration>
+    </movie>
+</movies>

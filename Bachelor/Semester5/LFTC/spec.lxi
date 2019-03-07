@@ -1,0 +1,64 @@
+%{
+#include "Utile.h"
+%}
+
+%option noyywrap
+%option caseless
+
+DIGIT 		[0-9]
+ID      [a-z]+
+
+%%
+{DIGIT}+                     {insertTSandFIP( yytext, 0);}
+{DIGIT}+"."{DIGIT}*          {insertTSandFIP( yytext, 0);}
+
+void		{addFip(2,0);}
+double      {addFip(3,0);}
+cout        {addFip(4,0);}
+endl        {addFip(5,0);}
+int         {addFip(6,0);}
+while       {addFip(7,0);}
+if          {addFip(8,0);}
+else        {addFip(9,0);}
+for         {addFip(10,0);}
+cin         {addFip(11,0);}
+return      {addFip(12,0);}
+\+          {addFip(13,0);}
+\-          {addFip(14,0);}
+\*          {addFip(15,0);}
+\>>         {addFip(16,0);}
+\<<         {addFip(17,0);}
+\(          {addFip(18,0);}
+\)          {addFip(19,0);}
+\{          {addFip(20,0);}
+\}          {addFip(21,0);}
+\,          {addFip(22,0);}
+\;          {addFip(23,0);}
+\>          {addFip(24,0);}
+\<          {addFip(25,0);}
+\/          {addFip(26,0);}
+\=          {addFip(27,0);}
+\>=         {addFip(28,0);}
+\<=         {addFip(29,0);}
+\!=         {addFip(30,0);}
+\==         {addFip(31,0);}
+\[          {addFip(32,0);}
+\]          {addFip(33,0);}
+{ID}        {insertTSandFIP( yytext, 1);}
+
+[ \t\n]+  ;
+. printf("Eroare %s\n", yytext);
+
+
+%%
+
+extern FILE *yyin;
+
+int main(int argc, char **argv)
+{
+
+   yylex();
+   show();
+
+}
+

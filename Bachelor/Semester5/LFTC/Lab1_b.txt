@@ -1,0 +1,14 @@
+public class Suma {
+public int suma ( ) {
+		int s , a , b = 0 ;
+        Scanner scan = new Scanner ( System . in ) ;
+        if ( scan . hasNextInt ( ) )
+            a = scan . nextInt ( ) ;
+	   for ( int i = 0 ; i <= a ; i ++ )	
+        	if ( scan . hasNextDouble ( ) ) {
+           	b = scan . nextDouble ( ) ; 
+			s += b ;
+		}
+        return s ;
+    }
+}

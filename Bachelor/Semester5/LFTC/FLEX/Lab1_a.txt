@@ -1,0 +1,8 @@
+public class AriePerimetru {
+	public double arieCerc ( double raza ) {
+        return raza * raza * 3.14 * 3.14 ;
+    }
+    public double perimetruCerc ( double raza ) {
+        return raza * 2 * 3.14 ;
+    }
+}

@@ -1,0 +1,28 @@
+.parent {
+    display: flex;
+}
+
+.firstchild1 {
+    float: left;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firstchild2 {
+    float: left;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child1text {
+    text-align: center;
+}
+
+.child2image {
+    max-width: 200px;
+    align-self: center;
+}

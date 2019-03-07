@@ -1,0 +1,32 @@
+<clasa>::= <antet_clasa> {<corp_clasa>}
+<antet_clasa>::= <proprietate_acces> class ID_class
+<proprietate_acces> ::= public|package|private|protected
+<corp_clasa>::= <lista_metode>
+<lista_metode>::=<metoda>|<metoda> <lista_metode>
+<metoda>::= <antet_metoda> {<corp>}
+<antet_metoda>::= <proprietate_acces> <tip> ID <lista_parametrii>
+<lista_instructiuni>::= <instructiune> | <instructiune> <lista_instructiuni>
+<instructiune>::= <atribuire><expresie>; | <return>; | <declarare>; | <while> | <for> | <if> | <declarare> | <afisare> |<citire> | <next> | <call> | <
+<atribuire> ::= ID = |ID += |ID -=
+<expresie>::= ID| CONST | <expresie>*<expresie> | <expresie>%<expresie> | new ID_class()| <call> | <next>
+<tip>::=int|string|boolean|double|char|void|ID_class
+<lista_parametri>::= E | <tip> ID |  <tip> ID, <lista_parametrii>
+<return>::= return <expresie>
+<while>::=while(<conditii>){<corp>}
+<for>::=for(<atribuire><expresie>;<conditie>;ID <operator_increment>){<corp>}
+<operator_increment> ::= --|++
+<conditii>::= <conditie> | <condite> && <conditii> | <conditie> || <conditii> | <hasNext>
+<conditie>::= <expresie> <operand> <expresie>
+<operand> ::= ==|<=|>=|!=|<|>
+<if>::=if ( <conditii> ) {<corp>}
+<corp>::= <lista_instructiuni>
+<afisare> ::= System.out.println( <lista_ID> );
+<lista_ID> ::= ID | ID,<lista_ID>
+<afisare_expresie> ::= System.out.println( <expresie> );
+<citire> ::= Scanner ID = new Scanner(System.in);
+<next> ::= scan.next<tip>();
+<hasNext> ::= scan.hasNext<tip>();
+<call> ::= ID.<metoda>(<lista_parametrii_efectivi>);
+<lista_parametrii_efectivi> ::= ID | ID, <lista_parametrii_efectivi>
+<declarare>::= <tip> ID;
+ 

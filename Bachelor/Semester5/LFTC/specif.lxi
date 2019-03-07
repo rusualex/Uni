@@ -1,0 +1,47 @@
+%{
+%}
+
+%option noyywrap
+%option caseless
+
+%%
+
+[ \t\n]+
+
+int          {printf("11 \t -1 \n");}
+double       {printf("12 \t -1 \n");}
+main         {printf("13 \t -1 \n");}
+cin          {printf("14 \t -1 \n");}
+cout         {printf("15 \t -1 \n");}
+return       {printf("16 \t -1 \n");}
+
+\(	     {printf("21 \t -1 \n");}
+\)	     {printf("22 \t -1 \n");}
+\{	     {printf("23 \t -1 \n");}
+\}	     {printf("24 \t -1 \n");}
+\+	     {printf("26 \t -1 \n");}
+\-	     {printf("27 \t -1 \n");}
+\*	     {printf("28 \t -1 \n");}
+\/	     {printf("29 \t -1 \n");}
+\=       {printf("30 \t -1 \n");}
+\<<	     {printf("31 \t -1 \n");}
+\>>	     {printf("32 \t -1 \n");}
+\;       {printf("33 \t -1 \n");}
+\,       {printf("34 \t -1 \n");}  
+
+[a-z]+				{printf("identif \n");}
+[1-9]+[0-9]*|0		{printf("const \n");}
+
+
+. printf("--------------Eroare %s\n", yytext);
+
+%%
+
+extern FILE *yyin;
+
+int main(int argc, char **argv)
+{
+
+   yylex();
+
+}
