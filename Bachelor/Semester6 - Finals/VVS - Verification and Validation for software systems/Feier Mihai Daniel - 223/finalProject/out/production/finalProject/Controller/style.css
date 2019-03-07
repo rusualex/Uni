@@ -1,0 +1,210 @@
+#gridPaneMenu{
+	-fx-background-color: #2E2E2E;
+}
+
+#studentButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#studentButton:hover{
+	-fx-background-color: #233041;
+}
+
+#homeworkButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#homeworkButton:hover{
+	-fx-background-color: #233041;
+}
+
+#gradeButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#gradeButton:hover{
+	-fx-background-color: #233041;
+}
+
+
+#studentsPane{
+	fx-background-color: #2E2E2E;
+}
+#gridPane{
+	fx-background-color: #2E2E2E;
+}
+
+#addButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#addButton:hover{
+	-fx-background-color: #233041;
+}
+
+#modifyButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#modifyButton:hover{
+	-fx-background-color: #233041;
+}
+
+
+#deleteButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#deleteButton:hover{
+	-fx-background-color: #233041;
+}
+
+#reportsButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#reportsButton:hover{
+	-fx-background-color: #233041;
+}
+
+#saveToPDF{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#saveToPDF:hover{
+	-fx-background-color: #233041;
+}
+
+#labGradeEachStudentButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#labGradeEachStudentButton:hover{
+	-fx-background-color: #233041;
+}
+
+#studentsEntryExamButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#studentsEntryExamButton:hover{
+	-fx-background-color: #233041;
+}
+
+#studentsSubmittedAllHomeworkButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#studentsSubmittedAllHomeworkButton:hover{
+	-fx-background-color: #233041;
+}
+
+#allGradesStudentButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#allGradesStudentButton:hover{
+	-fx-background-color: #233041;
+}
+
+#allGradesGroupHomeworkButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#allGradesGroupHomeworkButton:hover{
+	-fx-background-color: #233041;
+}
+
+#allGradesHomeworkButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#allGradesHomeworkButton:hover{
+	-fx-background-color: #233041;
+}
+
+#allGradesDatePeriodButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#allGradesDatePeriodButton:hover{
+	-fx-background-color: #233041;
+}
+
+#okButton{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+#okButton:hover{
+	-fx-background-color: #233041;
+}
+
+#studentTable{
+	-fx-background-color: #2E2E2E;
+}
+
+#pane{
+	-fx-background-color: #2E2E2E;
+}
+
+.pane{
+	-fx-background-color: #2E2E2E;
+}
+
+.textTextField{
+	-fx-text-fill:white;
+	}
+}
+
+.button{
+	-fx-background-color: #232531;
+	-fx-text-fill: white;
+	-fx-border: 1px;
+	-fx-border-color: #F2F2F2;
+}
+.button:hover{
+	-fx-background-color: #233041;
+}
+
+.textField1{
+	-fx-background-color: #898989;
+	-fx-prompt-text-fill: WHITE;
+    -jfx-focus-color: WHITE;
+    -jfx-unfocus-color: WHITE;
+}
+
+.textField1 .textField {
+	-fx-background-insets: 1 -3 1 1, 1 -2 1 1 ;
+}

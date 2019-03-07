@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="520.0" style="-fx-background-color: #2e2e2e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeController">
+   <children>
+      <Label alignment="CENTER" prefWidth="500.0" text="Note" textFill="#f2f2f2">
+         <font>
+            <Font name="Open Sans Bold" size="36.0" />
+         </font>
+      </Label>
+      <GridPane prefHeight="768.0" prefWidth="500.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="487.0" minWidth="10.0" prefWidth="428.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+            <RowConstraints />
+        </rowConstraints>
+         <children>
+            <GridPane prefHeight="668.0" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane layoutX="10.0" layoutY="10.0" maxHeight="70.0" GridPane.rowIndex="1">
+                     <children>
+                        <ComboBox fx:id="studentNameComboBox" prefHeight="35.0" prefWidth="300.0" GridPane.columnIndex="1" />
+                        <Label text="Nume Student:" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="137.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="430.0" minWidth="10.0" prefWidth="290.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="10.0" maxHeight="70.0" GridPane.rowIndex="2">
+                     <children>
+                        <Label text="Tema:" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <ComboBox fx:id="homeworkComboBox" minHeight="35.0" prefHeight="35.0" prefWidth="300.0" GridPane.columnIndex="1" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="154.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="306.0" minWidth="10.0" prefWidth="306.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="10.0" maxHeight="70.0" GridPane.rowIndex="3">
+                     <children>
+                        <Label text="Nota:" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <TextField fx:id="gradeTextField" maxWidth="300.0" minWidth="300.0" prefWidth="300.0" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="106.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.0" minWidth="10.0" prefWidth="406.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="400.0" maxHeight="70.0" GridPane.rowIndex="4">
+                     <children>
+                        <Label stylesheets="@style.css" text="Feedback:" textFill="#f2f2f2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <TextArea fx:id="feedbackTextArea" maxWidth="300.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="106.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.0" minWidth="10.0" prefWidth="406.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane GridPane.rowIndex="5">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="addButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" stylesheets="@style.css" text="Adauga nota" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <Button fx:id="clearButton" layoutX="30.0" layoutY="41.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" stylesheets="@style.css" text="Clear" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Open Sans Bold" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <CheckBox fx:id="motivatedCheckBox" mnemonicParsing="false" text="Motivat" textFill="#f2f2f2" GridPane.columnIndex="2">
+                           <GridPane.margin>
+                              <Insets left="85.0" />
+                           </GridPane.margin></CheckBox>
+                     </children>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="202.0" maxHeight="70.0">
+                     <children>
+                        <ComboBox fx:id="groupComboBox" prefHeight="35.0" prefWidth="300.0" GridPane.columnIndex="1" />
+                        <Label text="Grupa: " textFill="#f2f2f2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="137.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="430.0" minWidth="10.0" prefWidth="290.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane layoutX="10.0" layoutY="522.0" GridPane.rowIndex="6">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Button fx:id="reportsButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" stylesheets="@style.css" text="Rapoarte">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Button>
+                        <Button fx:id="filtersButton" layoutX="173.0" layoutY="32.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" stylesheets="@style.css" text="Filtrari" GridPane.columnIndex="2">
+                           <font>
+                              <Font name="Open Sans" size="16.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets left="20.0" />
+                           </GridPane.margin>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" top="100.0" />
+         </padding>
+      </GridPane>
+   </children>
+</Pane>

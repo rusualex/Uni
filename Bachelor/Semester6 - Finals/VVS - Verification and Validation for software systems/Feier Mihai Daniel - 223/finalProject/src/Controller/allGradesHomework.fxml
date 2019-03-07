@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="300.0" style="-fx-background-color: #2e2e2e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AllGradesHomeworkController">
+   <children>
+      <Label alignment="CENTER" prefWidth="300.0" text="Selectati tema:" textFill="#f2f2f2">
+         <font>
+            <Font name="Open Sans" size="24.0" />
+         </font>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </Label>
+      <ComboBox fx:id="homeworkComboBox" layoutX="20.0" layoutY="113.0" prefWidth="260.0" />
+      <Button fx:id="okButton" layoutX="129.0" layoutY="183.0" mnemonicParsing="false" stylesheets="@style.css" text="Ok">
+         <font>
+            <Font name="Open Sans" size="16.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</Pane>
