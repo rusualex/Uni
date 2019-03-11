@@ -1,0 +1,709 @@
+10 Mar 2019 23:23:46,915 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:23:46,915 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:23:46,915 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:23:46,915 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:23:46,915 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:23:46,915 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:23:46,931 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:24:44,897 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:24:44,914 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:24:44,914 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:24:44,916 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:24:44,916 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:24:44,916 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:24:44,916 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:25:12,628 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:25:12,645 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:25:12,645 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:25:12,645 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:25:12,645 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:25:12,645 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:25:12,645 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:25:38,914 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:25:38,914 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:25:38,929 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:25:38,930 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:25:38,930 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:25:38,930 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:25:38,930 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:26:21,468 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:26:21,480 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:26:21,480 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:26:21,480 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:26:21,480 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:26:21,480 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:26:21,480 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:26:54,580 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:26:54,580 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:26:54,580 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:26:54,580 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:26:54,580 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:26:54,580 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:26:54,580 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:27:28,677 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+10 Mar 2019 23:27:28,677 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:27:28,677 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:27:28,677 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:27:28,677 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+10 Mar 2019 23:27:28,677 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+10 Mar 2019 23:27:28,692 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+10 Mar 2019 23:30:14,814 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=com.sqlite.jdbc.Driver, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:identifier.sqlite} 
+10 Mar 2019 23:30:14,814 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:30:14,814 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:30:14,814 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:30:14,814 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+10 Mar 2019 23:30:14,814 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+10 Mar 2019 23:30:14,814 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+10 Mar 2019 23:30:14,814 ERROR repository.JdbcUtils 39 getNewConnection - java.lang.ClassNotFoundException: com.sqlite.jdbc.Driver
+10 Mar 2019 23:30:14,814 TRACE repository.JdbcUtils 58 getConnection - Exit
+10 Mar 2019 23:35:34,349 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.driver=com.sqlite.jdbc.Driver, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:identifier.sqlite} 
+10 Mar 2019 23:35:34,365 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:35:34,365 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:35:34,365 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:35:34,365 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+10 Mar 2019 23:35:34,365 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+10 Mar 2019 23:35:34,365 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+10 Mar 2019 23:35:34,368 ERROR repository.JdbcUtils 39 getNewConnection - java.lang.ClassNotFoundException: com.sqlite.jdbc.Driver
+10 Mar 2019 23:35:34,368 TRACE repository.JdbcUtils 58 getConnection - Exit
+10 Mar 2019 23:47:04,219 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.driver=com.sqlite.jdbc.Driver, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+10 Mar 2019 23:47:04,229 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:47:04,229 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:47:04,229 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:47:04,229 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+10 Mar 2019 23:47:04,229 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+10 Mar 2019 23:47:04,229 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+10 Mar 2019 23:47:04,229 ERROR repository.JdbcUtils 39 getNewConnection - java.lang.ClassNotFoundException: com.sqlite.jdbc.Driver
+10 Mar 2019 23:47:04,229 TRACE repository.JdbcUtils 58 getConnection - Exit
+10 Mar 2019 23:48:33,953 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+10 Mar 2019 23:48:33,953 TRACE repository.CourseRepository 28 size - Enter
+10 Mar 2019 23:48:33,953 TRACE repository.JdbcUtils 49 getConnection - Enter
+10 Mar 2019 23:48:33,953 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+10 Mar 2019 23:48:33,953 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+10 Mar 2019 23:48:33,953 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+10 Mar 2019 23:48:33,953 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+10 Mar 2019 23:48:33,953 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+10 Mar 2019 23:48:34,288 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@115667d)
+10 Mar 2019 23:48:34,288 ERROR repository.CourseRepository 38 size - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+10 Mar 2019 23:55:32,239 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:04:18,449 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:04:18,449 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:04:18,449 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:04:18,449 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:04:18,449 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:04:18,449 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:04:18,449 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:04:18,464 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:04:18,799 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:04:18,799 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:04:18,799 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:04:18,799 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:04:18,799 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:04:18,799 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:04:18,799 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:04:18,799 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:06:15,833 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:06:15,845 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:06:15,845 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:06:15,845 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:06:15,845 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:06:15,845 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:06:15,845 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:06:15,845 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:06:16,183 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:06:16,183 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:06:16,183 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:06:16,183 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:06:16,183 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:06:16,198 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:06:16,199 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:06:16,199 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:08:08,610 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:08:08,610 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:08:08,610 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:08:08,610 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:08:08,626 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:08:08,626 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:08:08,626 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:08:08,626 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:08:08,951 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:08:08,951 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:08:08,951 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:08:08,951 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:08:08,951 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:08:08,951 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:08:08,951 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:08:08,951 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:15:10,568 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:15:10,578 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:15:10,578 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:15:10,578 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:15:10,578 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:15:10,587 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:15:10,587 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:15:10,589 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:15:10,931 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:15:10,931 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:15:10,931 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:15:10,931 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:15:10,931 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:15:10,931 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:15:10,931 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:15:10,931 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:23:06,084 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:23:06,102 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:23:06,102 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:23:06,102 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:23:06,102 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:23:06,102 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:23:06,102 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:23:06,102 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:23:06,434 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:23:06,445 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:23:06,445 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:23:06,445 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:23:06,445 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:23:06,445 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:23:06,445 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:23:06,445 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:30:29,358 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=../../jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:30:29,365 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:30:29,365 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:30:29,365 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:30:29,365 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... ../../jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:30:29,365 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:30:29,365 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:30:29,365 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:30:29,375 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: No suitable driver found for ../../jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:30:29,375 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:31:05,475 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:../../tReservation.sqlite} 
+11 Mar 2019 00:31:05,491 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:31:05,491 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:31:05,491 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:31:05,491 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:../../tReservation.sqlite
+11 Mar 2019 00:31:05,491 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:31:05,491 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:31:05,491 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:31:05,817 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:31:05,817 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:31:05,817 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:31:05,817 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:31:05,817 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:31:05,817 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:31:05,817 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:31:05,817 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:31:26,198 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:../../../tReservation.sqlite} 
+11 Mar 2019 00:31:26,213 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:31:26,213 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:31:26,213 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:31:26,213 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:../../../tReservation.sqlite
+11 Mar 2019 00:31:26,213 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:31:26,213 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:31:26,213 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:31:26,232 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: '../../../tReservation.sqlite': Access is denied
+11 Mar 2019 00:31:26,232 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:32:33,657 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:../../../../tReservation.sqlite} 
+11 Mar 2019 00:32:33,657 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:32:33,657 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:32:33,657 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:32:33,657 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:../../../../tReservation.sqlite
+11 Mar 2019 00:32:33,657 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:32:33,657 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:32:33,673 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:32:33,687 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: '../../../../tReservation.sqlite': Access is denied
+11 Mar 2019 00:32:33,687 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:32:42,818 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:../../../../../tReservation.sqlite} 
+11 Mar 2019 00:32:42,818 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:32:42,818 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:32:42,833 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:32:42,833 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:../../../../../tReservation.sqlite
+11 Mar 2019 00:32:42,834 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:32:42,834 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:32:42,836 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:32:42,852 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: '../../../../../tReservation.sqlite': Access is denied
+11 Mar 2019 00:32:42,852 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:32:52,454 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:../tReservation.sqlite} 
+11 Mar 2019 00:32:52,454 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:32:52,454 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:32:52,454 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:32:52,454 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:../tReservation.sqlite
+11 Mar 2019 00:32:52,454 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:32:52,454 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:32:52,454 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:32:52,778 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:32:52,778 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:32:52,778 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:32:52,778 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:32:52,778 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:32:52,778 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:32:52,778 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:32:52,778 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:34:00,813 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite} 
+11 Mar 2019 00:34:00,813 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:34:00,813 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:34:00,813 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:34:00,813 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite
+11 Mar 2019 00:34:00,813 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:34:00,813 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:34:00,813 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:34:00,832 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: 'C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite': The filename, directory name, or volume label syntax is incorrect
+11 Mar 2019 00:34:00,847 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:34:33,884 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite} 
+11 Mar 2019 00:34:33,900 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:34:33,900 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:34:33,900 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:34:33,900 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite
+11 Mar 2019 00:34:33,900 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:34:33,900 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:34:33,900 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:34:33,900 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: No suitable driver found for C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite
+11 Mar 2019 00:34:33,900 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 00:37:43,978 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {} 
+11 Mar 2019 00:37:43,997 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:37:43,997 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:37:43,997 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:37:43,997 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+11 Mar 2019 00:37:43,997 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+11 Mar 2019 00:37:43,997 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+11 Mar 2019 00:38:26,367 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:38:26,383 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:38:26,383 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:38:26,383 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:38:26,383 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:38:26,383 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:38:26,383 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:38:26,383 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:38:26,711 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:38:26,711 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:38:26,711 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:38:26,711 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:38:26,711 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:38:26,711 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:38:26,711 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:38:26,711 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:39:40,280 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:39:40,280 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:39:40,280 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:39:40,280 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:39:40,280 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:39:40,280 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:39:40,280 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:39:40,295 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:39:40,627 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:39:40,627 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:39:40,627 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:39:40,627 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:39:40,627 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:39:40,627 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:39:40,627 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:39:40,627 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:45:03,914 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=pass, tReservation.jdbc.user=admin, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:45:03,929 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:45:03,929 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:45:03,929 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:45:03,929 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:45:03,929 INFO  repository.JdbcUtils 28 getNewConnection - user: admin
+11 Mar 2019 00:45:03,929 INFO  repository.JdbcUtils 29 getNewConnection - pass: pass
+11 Mar 2019 00:45:03,929 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:45:04,266 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:45:04,266 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:45:04,266 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:45:04,266 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:45:04,266 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:45:04,266 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:45:04,266 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:45:04,266 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:45:37,974 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:45:37,974 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:45:37,974 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:45:37,974 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:45:37,974 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:45:37,974 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:45:37,990 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:45:37,991 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:45:38,329 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:45:38,329 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:45:38,329 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:45:38,329 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:45:38,329 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:45:38,329 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:45:38,329 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:45:38,329 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:47:29,494 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:47:29,494 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:47:29,494 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:47:29,494 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:47:29,494 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:47:29,494 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:47:29,494 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:47:29,510 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:47:29,841 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:47:29,841 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:47:29,856 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:47:29,856 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:47:29,857 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:47:29,857 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:47:29,857 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 00:47:29,857 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:47:50,057 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:47:50,075 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:47:50,075 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:47:50,075 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:47:50,075 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:47:50,075 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:47:50,075 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:47:50,075 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:47:50,415 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:47:50,415 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:47:50,415 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:47:50,415 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:47:50,415 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:47:50,415 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:47:50,415 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:47:50,415 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:49:03,374 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:49:03,376 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:49:03,376 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:49:03,376 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:49:03,376 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:49:03,376 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:49:03,376 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:49:03,376 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:49:03,720 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:49:03,720 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+11 Mar 2019 00:49:03,720 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:49:03,720 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:49:03,720 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:49:03,720 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:49:03,720 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+11 Mar 2019 00:49:03,720 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:50:50,828 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:50:50,843 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:50:50,843 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:50:50,843 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:50:50,843 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:50:50,843 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:50:50,843 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:50:50,843 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:50:51,178 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:50:51,178 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+11 Mar 2019 00:50:51,178 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:50:51,178 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:50:51,178 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:50:51,178 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:50:51,178 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+11 Mar 2019 00:50:51,178 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:51:51,312 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:51:51,327 TRACE repository.CourseRepository 46 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:51:51,327 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:51:51,327 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:51:51,327 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:51:51,327 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:51:51,327 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:51:51,327 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:51:51,677 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:51:51,680 ERROR repository.CourseRepository 56 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:51:51,680 TRACE repository.CourseRepository 59 save - Exit
+11 Mar 2019 00:51:51,680 TRACE repository.CourseRepository 107 findAll - Enter
+11 Mar 2019 00:51:51,680 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:51:51,680 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@736caf7a)
+11 Mar 2019 00:51:51,680 ERROR repository.CourseRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:51:51,680 TRACE repository.CourseRepository 121 findAll - Exit with([])
+11 Mar 2019 00:58:25,744 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:tReservation.sqlite} 
+11 Mar 2019 00:58:25,760 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 00:58:25,760 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:58:25,760 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 00:58:25,760 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:tReservation.sqlite
+11 Mar 2019 00:58:25,760 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 00:58:25,760 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 00:58:25,760 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 00:58:26,094 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 00:58:26,101 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:58:26,101 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 00:58:26,101 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 00:58:26,101 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 00:58:26,101 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 00:58:26,106 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 00:58:26,106 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:02:34,627 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite} 
+11 Mar 2019 01:02:34,646 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:02:34,646 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:02:34,646 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:02:34,646 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite
+11 Mar 2019 01:02:34,646 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:02:34,646 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:02:34,646 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:02:34,661 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: 'C:UsersAlex-PCIdeaProjects	Reservation	Reservation.sqlite': The filename, directory name, or volume label syntax is incorrect
+11 Mar 2019 01:02:34,661 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 01:03:05,843 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite} 
+11 Mar 2019 01:03:05,859 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:03:05,859 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:03:05,859 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:03:05,859 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite
+11 Mar 2019 01:03:05,859 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:03:05,859 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:03:05,859 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:03:06,178 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:03:06,193 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 01:03:06,193 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:03:06,193 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:03:06,193 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:03:06,193 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:03:06,193 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 01:03:06,193 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:04:45,545 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite} 
+11 Mar 2019 01:04:45,564 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:04:45,564 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:04:45,564 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:04:45,564 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite
+11 Mar 2019 01:04:45,564 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:04:45,564 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:04:45,564 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:04:45,885 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:04:45,885 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:04:45,885 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:04:45,885 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:04:45,885 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:04:45,885 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:04:45,885 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:04:45,885 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:05:25,508 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite} 
+11 Mar 2019 01:05:25,508 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:05:25,508 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:05:25,508 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:05:25,508 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite
+11 Mar 2019 01:05:25,508 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:05:25,508 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:05:25,524 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:05:25,854 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:05:25,854 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:05:25,854 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:05:25,854 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:05:25,854 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:05:25,854 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:05:25,854 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:05:25,854 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:12:30,383 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite} 
+11 Mar 2019 01:12:30,393 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:12:30,393 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:12:30,394 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:12:30,394 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite
+11 Mar 2019 01:12:30,394 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:12:30,394 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:12:30,397 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:12:30,719 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:12:30,723 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:12:30,724 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:12:30,724 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:12:30,724 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:12:30,724 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:12:30,724 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Course)
+11 Mar 2019 01:12:30,725 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:14:03,207 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite} 
+11 Mar 2019 01:14:03,211 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:14:03,212 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:14:03,212 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:14:03,212 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Alex-PC\IdeaProjects\tReservation\tReservation.sqlite
+11 Mar 2019 01:14:03,212 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:14:03,213 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:14:03,215 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:14:03,539 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:14:03,542 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 01:14:03,543 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:14:03,543 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:14:03,543 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:14:03,543 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:14:03,544 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: main.Course)
+11 Mar 2019 01:14:03,544 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:25:28,689 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:!(:memory:){file::identifier.sqlite}?} 
+11 Mar 2019 01:25:28,694 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:25:28,694 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:25:28,694 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:25:28,694 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:!(:memory:){file::identifier.sqlite}?
+11 Mar 2019 01:25:28,695 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:25:28,695 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:25:28,697 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:25:28,715 ERROR repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: opening db: '!(:memory:){file::identifier.sqlite}': The filename, directory name, or volume label syntax is incorrect
+11 Mar 2019 01:25:28,715 TRACE repository.JdbcUtils 58 getConnection - Exit
+11 Mar 2019 01:39:45,767 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:39:45,771 TRACE repository.CourseRepository 47 save - Enter saving Course model.Course@afe55e96 
+11 Mar 2019 01:39:45,771 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:39:45,772 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:39:45,772 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:39:45,772 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:39:45,772 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:39:45,774 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:39:46,107 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:39:46,111 ERROR repository.CourseRepository 58 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Course.courseId)
+11 Mar 2019 01:39:46,111 TRACE repository.CourseRepository 61 save - Exit
+11 Mar 2019 01:39:46,112 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:39:46,112 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:39:46,112 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 01:39:46,112 ERROR repository.CourseRepository 123 findAll - java.sql.SQLException: no such column: 'departureCity'
+11 Mar 2019 01:39:46,113 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:41:24,045 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:41:24,056 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:41:24,057 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:41:24,057 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:41:24,057 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:41:24,057 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:41:24,057 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:41:24,059 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:41:24,375 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:41:24,378 ERROR repository.CourseRepository 123 findAll - java.sql.SQLException: no such column: 'departureCity'
+11 Mar 2019 01:41:24,378 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:42:11,493 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:42:11,504 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:42:11,504 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:42:11,504 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:42:11,505 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:42:11,505 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:42:11,505 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:42:11,507 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:42:11,835 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:42:11,838 ERROR repository.CourseRepository 123 findAll - java.sql.SQLException: no such column: 'departureCity'
+11 Mar 2019 01:42:11,839 TRACE repository.CourseRepository 126 findAll - Exit with([])
+11 Mar 2019 01:45:08,738 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:45:08,748 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:45:08,749 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:45:08,749 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:45:08,749 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:45:08,750 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:45:08,750 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:45:08,752 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:45:09,088 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4879dfad)
+11 Mar 2019 01:45:09,093 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:45:09,094 TRACE repository.CourseRepository 126 findAll - Exit with([model.Course@960624f1, model.Course@28508052, model.Course@ca820fdb, model.Course@301e54b3, model.Course@d24fe43c, model.Course@bb67d937, model.Course@21041e0f, model.Course@21123590, model.Course@26d939cc, model.Course@e9facf2e, model.Course@41295969])
+11 Mar 2019 01:46:29,812 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:46:29,821 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:46:29,822 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:46:29,822 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:46:29,822 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:46:29,822 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:46:29,823 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:46:29,825 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:46:30,145 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:46:30,150 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:46:30,150 TRACE repository.CourseRepository 126 findAll - Exit with([model.Course@960624f1, model.Course@28508052, model.Course@ca820fdb, model.Course@301e54b3, model.Course@d24fe43c, model.Course@bb67d937, model.Course@21041e0f, model.Course@21123590, model.Course@26d939cc, model.Course@e9facf2e, model.Course@41295969])
+11 Mar 2019 01:46:59,963 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:46:59,972 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:46:59,973 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:46:59,973 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:46:59,973 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:46:59,973 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:46:59,974 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:46:59,976 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:47:00,300 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:47:00,304 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:47:00,304 TRACE repository.CourseRepository 126 findAll - Exit with([model.Course@960624f1, model.Course@28508052, model.Course@ca820fdb, model.Course@301e54b3, model.Course@d24fe43c, model.Course@bb67d937, model.Course@21041e0f, model.Course@21123590, model.Course@26d939cc, model.Course@e9facf2e, model.Course@41295969])
+11 Mar 2019 01:48:40,767 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:48:40,778 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:48:40,778 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:48:40,778 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:48:40,779 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:48:40,779 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:48:40,779 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:48:40,781 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:48:41,111 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:48:41,116 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:48:41,116 TRACE repository.CourseRepository 126 findAll - Exit with([model.Course@960624f1, model.Course@28508052, model.Course@ca820fdb, model.Course@301e54b3, model.Course@d24fe43c, model.Course@bb67d937, model.Course@21041e0f, model.Course@21123590, model.Course@26d939cc, model.Course@e9facf2e, model.Course@41295969])
+11 Mar 2019 01:48:41,116 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:48:41,117 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:48:41,117 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:48:41,117 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:48:41,117 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:48:41,117 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:48:41,117 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:48:41,118 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@495fac5f)
+11 Mar 2019 01:48:41,119 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:48:41,119 TRACE repository.CourseRepository 126 findAll - Exit with([model.Course@960624f1, model.Course@28508052, model.Course@ca820fdb, model.Course@301e54b3, model.Course@d24fe43c, model.Course@bb67d937, model.Course@21041e0f, model.Course@21123590, model.Course@26d939cc, model.Course@e9facf2e, model.Course@41295969])
+11 Mar 2019 01:49:21,917 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:49:21,928 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:49:21,928 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:49:21,928 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:49:21,929 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:49:21,929 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:49:21,929 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:49:21,931 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:49:22,254 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:49:22,259 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:49:22,259 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 01:49:22,260 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:49:22,260 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:49:22,260 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:49:22,260 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:49:22,260 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:49:22,260 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:49:22,260 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:49:22,261 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@495fac5f)
+11 Mar 2019 01:49:22,262 ERROR repository.CourseRepository 123 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (Connection is closed)
+11 Mar 2019 01:49:22,262 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 01:50:29,854 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 01:50:29,864 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:50:29,864 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:50:29,864 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 01:50:29,865 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 01:50:29,865 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 01:50:29,865 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 01:50:29,867 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 01:50:30,206 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:50:30,209 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 01:50:30,210 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 01:50:30,210 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 01:50:30,210 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4758820d)
+11 Mar 2019 01:50:30,210 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 02:02:46,714 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 02:02:46,724 INFO  repository.UserRepository 22 <init> - Initializing UserRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 02:02:46,725 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 02:02:46,725 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:02:46,726 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 02:02:46,726 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 02:02:46,726 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 02:02:46,726 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 02:02:46,728 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 02:02:47,050 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 02:02:47,053 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 02:02:47,053 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 02:02:47,053 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:02:47,054 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 02:02:47,054 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 02:02:47,054 TRACE repository.UserRepository 108 findAll - Enter
+11 Mar 2019 02:02:47,054 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:02:47,055 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 02:02:47,055 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 02:02:47,055 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 02:02:47,055 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 02:02:47,055 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 02:02:47,056 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3da05287)
+11 Mar 2019 02:02:47,057 TRACE repository.UserRepository 123 findAll - Exit with([model.User@c7cf64f2, model.User@5c1357d0, model.User@b20c68ab, model.User@e7b0ab25, model.User@bc29a0c1, model.User@d525261c, model.User@39c0474d])
+11 Mar 2019 02:02:47,057 TRACE repository.UserRepository 108 findAll - Enter
+11 Mar 2019 02:02:47,057 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:02:47,057 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3da05287)
+11 Mar 2019 02:02:47,057 TRACE repository.UserRepository 123 findAll - Exit with([model.User@c7cf64f2, model.User@5c1357d0, model.User@b20c68ab, model.User@e7b0ab25, model.User@bc29a0c1, model.User@d525261c, model.User@39c0474d])
+11 Mar 2019 02:03:22,769 INFO  repository.CourseRepository 22 <init> - Initializing CourseRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 02:03:22,778 INFO  repository.UserRepository 22 <init> - Initializing UserRepository with properties: {tReservation.jdbc.driver=org.sqlite.JDBC, tReservation.jdbc.pass=, tReservation.jdbc.user=, tReservation.jdbc.url=jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite} 
+11 Mar 2019 02:03:22,780 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 02:03:22,780 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:03:22,780 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 02:03:22,780 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 02:03:22,780 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 02:03:22,781 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 02:03:22,783 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 02:03:23,114 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 02:03:23,117 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 02:03:23,118 TRACE repository.CourseRepository 111 findAll - Enter
+11 Mar 2019 02:03:23,118 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:03:23,118 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74eb909f)
+11 Mar 2019 02:03:23,119 TRACE repository.CourseRepository 126 findAll - Exit with([Course{courseId=1, destination='Bucharest', dateOfDeparture='2007-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=2, destination='Bucharest', dateOfDeparture='2018-01-01 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=3, destination='Bucharest', dateOfDeparture='2018-01-01 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=4, destination='Bucharest', dateOfDeparture='2018-01-02 10:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=5, destination='Bucharest', dateOfDeparture='2018-01-02 18:00:00', departureCity='Cluj', freeSeats=18}, Course{courseId=6, destination='Cluj', dateOfDeparture='2018-01-02 18:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=7, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=8, destination='Cluj', dateOfDeparture='2018-01-03 10:00:00', departureCity='Timisoara', freeSeats=18}, Course{courseId=9, destination='Cluj', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=10, destination='Bucharest', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}, Course{courseId=11, destination='Timisoara', dateOfDeparture='2018-01-05 18:00:00', departureCity='Iasi', freeSeats=18}])
+11 Mar 2019 02:03:23,119 TRACE repository.UserRepository 108 findAll - Enter
+11 Mar 2019 02:03:23,119 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:03:23,119 TRACE repository.JdbcUtils 22 getNewConnection - Enter
+11 Mar 2019 02:03:23,120 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Alex-PC/IdeaProjects/tReservation/tReservation.sqlite
+11 Mar 2019 02:03:23,120 INFO  repository.JdbcUtils 28 getNewConnection - user: 
+11 Mar 2019 02:03:23,120 INFO  repository.JdbcUtils 29 getNewConnection - pass: 
+11 Mar 2019 02:03:23,120 INFO  repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+11 Mar 2019 02:03:23,121 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3da05287)
+11 Mar 2019 02:03:23,122 TRACE repository.UserRepository 123 findAll - Exit with([User{userName='raig0136', passWord='1234'}, User{userName='saig0137', passWord='0000'}, User{userName='pair0244', passWord='1997'}, User{userName='diie0023', passWord='1997'}, User{userName='adminu', passWord='1997'}, User{userName='dpir0023', passWord='pass'}, User{userName='bcmr0023', passWord='csil'}])
+11 Mar 2019 02:03:23,122 TRACE repository.UserRepository 108 findAll - Enter
+11 Mar 2019 02:03:23,122 TRACE repository.JdbcUtils 49 getConnection - Enter
+11 Mar 2019 02:03:23,122 TRACE repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3da05287)
+11 Mar 2019 02:03:23,123 TRACE repository.UserRepository 123 findAll - Exit with([User{userName='raig0136', passWord='1234'}, User{userName='saig0137', passWord='0000'}, User{userName='pair0244', passWord='1997'}, User{userName='diie0023', passWord='1997'}, User{userName='adminu', passWord='1997'}, User{userName='dpir0023', passWord='pass'}, User{userName='bcmr0023', passWord='csil'}])
