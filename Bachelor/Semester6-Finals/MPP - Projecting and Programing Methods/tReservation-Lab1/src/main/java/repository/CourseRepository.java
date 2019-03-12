@@ -4,7 +4,10 @@ import model.Course;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -13,7 +16,7 @@ import java.util.Properties;
  *
  *
  */
-public class CourseRepository implements IRepository<Integer,Course> {
+public class CourseRepository implements ICourseRepository<Integer,Course> {
     private JdbcUtils dbUtils;
 
     private static final Logger logger= LogManager.getLogger();
@@ -53,7 +56,6 @@ public class CourseRepository implements IRepository<Integer,Course> {
             preStmt.setString(5,entity.getDepartureCity());
             preStmt.setInt(4,entity.getFreeSeats());
             int result=preStmt.executeUpdate();
-
         }catch (SQLException ex){
             logger.error(ex);
             System.out.println("Error DB "+ex);
@@ -63,11 +65,11 @@ public class CourseRepository implements IRepository<Integer,Course> {
     }
 
     @Override
-    public void delete(Integer integer) {
-        logger.traceEntry("deleting Course with {}",integer);
+    public void delete(int courseId) {
+        logger.traceEntry("deleting Course with id{}",courseId);
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement("delete from main.Course where courseId=?")){
-            preStmt.setInt(1,integer);
+            preStmt.setInt(1,courseId);
             int result=preStmt.executeUpdate();
 
         }catch (SQLException ex){
@@ -78,17 +80,34 @@ public class CourseRepository implements IRepository<Integer,Course> {
     }
 
     @Override
-    public void update(Integer integer, Course entity) {
+    public void update(int integer, Course entity) {
         //To do
+        logger.traceEntry("update Course with id{} ",integer+"with "+entity);
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement(
+                "update main.Course set main.Course.destination=?,main.Course.dateOfDeparture=?," +
+                        "depatureCity=? where main.Course.courseId=integer")){
+            preStmt.setString(1,entity.getDestination());
+            preStmt.setString(2,entity.getDateOfDeparture());
+            preStmt.setString(3,entity.getDepartureCity());
+            int result=preStmt.executeUpdate();
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit();
     }
 
     @Override
-    public Course findOne(Integer integer) {
-        logger.traceEntry("finding task with id {} ",integer);
+    public Course findOne(String destination,String dateOfDeparture) {
+//        CourseSearchHelper cSH = (CourseSearchHelper) courseSearchHelper;
+        logger.traceEntry("finding task with destination{ } ",
+                destination+"or date"+dateOfDeparture);
         Connection con=dbUtils.getConnection();
-
-        try(PreparedStatement preStmt=con.prepareStatement("select * from main.Course where courseId=?")){
-            preStmt.setInt(1,integer);
+        try(PreparedStatement preStmt=con.prepareStatement(
+                "select * from main.Course where destination=? and dateOfDeparture=?")){
+            preStmt.setString(1,destination);
+            preStmt.setString(2,dateOfDeparture);
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
                     Course course = createCourse(result);
@@ -96,13 +115,11 @@ public class CourseRepository implements IRepository<Integer,Course> {
                     return course;
                 }
             }
-
         }catch (SQLException ex){
             logger.error(ex);
             System.out.println("Error DB "+ex);
         }
-        logger.traceExit("No task found with id {}", integer);
-
+        logger.traceExit("No task found with id {}", destination+"  Date: "+dateOfDeparture);
         return null;
     }
 

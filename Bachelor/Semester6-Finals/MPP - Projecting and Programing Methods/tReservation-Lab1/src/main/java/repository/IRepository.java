@@ -1,7 +1,7 @@
 package repository;
 
 /**
- * Created by grigo on 11/14/16.
+ *
  */
 public interface IRepository<ID, T> {
     int size();

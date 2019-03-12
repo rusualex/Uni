@@ -8,10 +8,12 @@ import java.util.Objects;
 public class User {
     private String userName;
     private String passWord;
+    private int userId;
 
-    public User(String userName, String passWord) {
+    public User(String userName, String passWord,int userId) {
         this.userName = userName;
         this.passWord = passWord;
+        this.userId = userId;
     }
 
     public String getUserName() {
@@ -30,18 +32,27 @@ public class User {
         this.passWord = passWord;
     }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof User)) return false;
         User user = (User) o;
-        return getUserName().equals(user.getUserName()) &&
+        return getUserId() == user.getUserId() &&
+                getUserName().equals(user.getUserName()) &&
                 getPassWord().equals(user.getPassWord());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getUserName(), getPassWord());
+        return Objects.hash(getUserName(), getPassWord(), getUserId());
     }
 
     @Override
@@ -49,6 +60,7 @@ public class User {
         return "User{" +
                 "userName='" + userName + '\'' +
                 ", passWord='" + passWord + '\'' +
+                ", userId=" + userId +
                 '}';
     }
 }

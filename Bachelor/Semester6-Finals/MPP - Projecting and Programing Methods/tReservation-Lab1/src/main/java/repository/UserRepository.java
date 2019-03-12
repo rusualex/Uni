@@ -13,7 +13,7 @@ import java.util.Properties;
  *
  *
  */
-public class UserRepository implements IRepository<String,User> {
+public class UserRepository implements IUserRepository<String,User> {
     private JdbcUtils dbUtils;
 
     private static final Logger logger= LogManager.getLogger();
@@ -46,9 +46,10 @@ public class UserRepository implements IRepository<String,User> {
     public void save(User entity) {
         logger.traceEntry("saving User {} ",entity);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("insert into main.User values (?,?)")){
+        try(PreparedStatement preStmt=con.prepareStatement("insert into main.User values (?,?,?)")){
             preStmt.setString(1,entity.getUserName());
             preStmt.setString(2,entity.getPassWord());
+            preStmt.setInt(3,entity.getUserId());
             int result=preStmt.executeUpdate();
 
         }catch (SQLException ex){
@@ -60,11 +61,11 @@ public class UserRepository implements IRepository<String,User> {
     }
 
     @Override
-    public void delete(String userName) {
-        logger.traceEntry("deleting User with {}",userName);
+    public void delete(int userId) {
+        logger.traceEntry("deleting User with {}",userId);
         Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("delete from main.User where userName=?")){
-            preStmt.setString(1,userName);
+        try(PreparedStatement preStmt=con.prepareStatement("delete from main.User where userId=?")){
+            preStmt.setInt(1,userId);
             int result=preStmt.executeUpdate();
 
         }catch (SQLException ex){
@@ -75,8 +76,19 @@ public class UserRepository implements IRepository<String,User> {
     }
 
     @Override
-    public void update(String userName, User entity) {
+    public void update(int userId, User entity) {
         //To do
+        logger.traceEntry("update Course with id{} ",userId+"with "+entity);
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement(
+                "update main.User set main.User.userPassword=? where  main.User.userId=userId")){
+            preStmt.setString(1,entity.getPassWord());
+            int result=preStmt.executeUpdate();
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit();
     }
 
     @Override
@@ -128,7 +140,8 @@ public class UserRepository implements IRepository<String,User> {
     private User createUser(ResultSet result) throws SQLException {
         String userName = result.getString("userName");
         String userPassword = result.getString("userPassword");
-        return new User(userName,userPassword);
+        int userId = result.getInt("userId");
+        return new User(userName,userPassword,userId);
     }
 
 }

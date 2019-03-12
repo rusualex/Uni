@@ -51,4 +51,13 @@ public class Seats {
     public int hashCode() {
         return Objects.hash(getSeatNumber(), getCourseId(), getSeatClient());
     }
+
+    @Override
+    public String toString() {
+        return "Seats{" +
+                "seatNumber=" + seatNumber +
+                ", courseId=" + courseId +
+                ", seatClient='" + seatClient + '\'' +
+                '}';
+    }
 }
