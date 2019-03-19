@@ -139,14 +139,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/SeatsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="388">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/73dd5499-7caa-44f3-80dc-9692754ace74">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>73dd5499-7caa-44f3-80dc-9692754ace74</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course</node>
+                <node x="18.5" y="190.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats</node>
+                <node x="244.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_master</node>
+                <node x="0.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.User</node>
+                <node x="197.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_sequence</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats" target="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9373601789709173" x="-225.22792362768496" y="209.76610978520284" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -172,7 +202,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="850">
               <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -184,8 +214,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/CourseRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+            <state relative-caret-position="748">
+              <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,7 +243,7 @@
                   <point x="0.0" y="70.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.9373601789709173" x="-84.4069212410501" y="246.03818615751788" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="185.5" y="213.5" />
               <SelectedNodes>
                 <node>73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats</node>
               </SelectedNodes>
@@ -238,7 +268,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
@@ -251,7 +281,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Seats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="697">
               <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
@@ -330,19 +360,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3875" />
-    <option name="height" value="2095" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -567,11 +596,12 @@
       <workItem from="1552302455987" duration="5912000" />
       <workItem from="1552313337390" duration="4191000" />
       <workItem from="1552319582162" duration="6009000" />
+      <workItem from="1552378954230" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51573000" />
+    <option name="totallyTimeSpent" value="52190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,10 +613,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="762" y="0" width="779" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15425889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3231623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -604,7 +634,7 @@
       <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.4989339" weight="0.3261105" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.20925553" side_tool="true" visible="true" weight="0.33521923" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.20925553" side_tool="true" visible="true" weight="0.33857143" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32956153" />
@@ -614,8 +644,8 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.33132127" />
-      <window_info anchor="right" id="Database" order="7" weight="0.18443997" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.33132127" />
+      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.3814147" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -814,6 +844,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -827,40 +858,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="99.5" y="70.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="70.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/73dd5499-7caa-44f3-80dc-9692754ace74">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>73dd5499-7caa-44f3-80dc-9692754ace74</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course</node>
-            <node x="18.5" y="190.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats</node>
-            <node x="244.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_master</node>
-            <node x="0.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.User</node>
-            <node x="197.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_sequence</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats" target="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course">
-              <point x="0.0" y="-48.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-67.5" y="230.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -872,14 +876,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/test.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="843" column="62" selection-start-line="843" selection-start-column="62" selection-end-line="843" selection-end-column="62" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-1439">
           <caret line="1222" column="7" selection-start-line="1222" selection-start-column="7" selection-end-line="1222" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="843" column="62" selection-start-line="843" selection-start-column="62" selection-end-line="843" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -936,6 +940,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/SeatsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/ISeatsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -943,21 +957,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Seats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+    <entry file="das://73dd5499-7caa-44f3-80dc-9692754ace74/schema/main/table/Course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="850">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -981,7 +1003,7 @@
               <point x="0.0" y="70.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9373601789709173" x="-84.4069212410501" y="246.03818615751788" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="185.5" y="213.5" />
           <SelectedNodes>
             <node>73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats</node>
           </SelectedNodes>
@@ -999,40 +1021,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://73dd5499-7caa-44f3-80dc-9692754ace74/schema/main/table/Course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StartApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/SeatsRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Seats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
-          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/73dd5499-7caa-44f3-80dc-9692754ace74">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>73dd5499-7caa-44f3-80dc-9692754ace74</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course</node>
+            <node x="18.5" y="190.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats</node>
+            <node x="244.0" y="0.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_master</node>
+            <node x="0.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.User</node>
+            <node x="197.0" y="331.0">73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.sqlite_sequence</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Seats" target="73dd5499-7caa-44f3-80dc-9692754ace74.TABLE:main.Course">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9373601789709173" x="-225.22792362768496" y="209.76610978520284" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

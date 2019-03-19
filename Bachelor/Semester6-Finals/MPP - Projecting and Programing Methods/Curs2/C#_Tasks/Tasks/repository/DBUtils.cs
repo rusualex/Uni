@@ -25,8 +25,6 @@ namespace tasks.repository
 		{
 			
 			return ConnectionUtils.ConnectionFactory.getInstance().createConnection(props);
-
-
 		}
 	}
 }
