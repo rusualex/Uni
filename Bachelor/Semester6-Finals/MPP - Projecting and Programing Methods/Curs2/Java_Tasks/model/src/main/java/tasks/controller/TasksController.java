@@ -29,7 +29,6 @@ public class TasksController implements Observer<SortingTaskEvent>{
     public void addSortingTask(int id, String desc, SortingOrder order, SortingAlgorithm alg, int nrElem){
         SortingTask task=new SortingTask(id,desc,alg,order,nrElem);
         service.addSortingTask(task);
-
     }
 
     public void deleteTask(SortingTask task){

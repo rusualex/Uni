@@ -261,6 +261,5 @@ namespace tReservation_Lab1CS
             con.Close();
             log.InfoFormat("Exiting after update with {0} rows affected", rowsAffected);
         }
-
     }
 }
