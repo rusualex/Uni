@@ -86,7 +86,7 @@ public class CourseRepository implements ICourseRepository<Integer,Course> {
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement(
                 "update main.Course set main.Course.destination=?,main.Course.dateOfDeparture=?," +
-                        "depatureCity=? where main.Course.courseId=integer")){
+                        "departureCity=? where main.Course.courseId=integer")){
             preStmt.setString(1,entity.getDestination());
             preStmt.setString(2,entity.getDateOfDeparture());
             preStmt.setString(3,entity.getDepartureCity());
@@ -99,15 +99,13 @@ public class CourseRepository implements ICourseRepository<Integer,Course> {
     }
 
     @Override
-    public Course findOne(String destination,String dateOfDeparture) {
-//        CourseSearchHelper cSH = (CourseSearchHelper) courseSearchHelper;
+    public Course findOne(int courseId){
         logger.traceEntry("finding task with destination{ } ",
-                destination+"or date"+dateOfDeparture);
+                courseId);
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement(
-                "select * from main.Course where destination=? and dateOfDeparture=?")){
-            preStmt.setString(1,destination);
-            preStmt.setString(2,dateOfDeparture);
+                "select * from main.Course where courseId=?")){
+            preStmt.setInt(1,courseId);
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
                     Course course = createCourse(result);
@@ -119,12 +117,37 @@ public class CourseRepository implements ICourseRepository<Integer,Course> {
             logger.error(ex);
             System.out.println("Error DB "+ex);
         }
-        logger.traceExit("No task found with id {}", destination+"  Date: "+dateOfDeparture);
+        logger.traceExit("No task found with id {}", courseId);
         return null;
     }
 
     @Override
-    public Iterable<Course> findAll() {
+    public Course findOne(String departureCity,String destination,String dateOfDeparture) {
+        logger.traceEntry("finding task with destination{ } ",
+                dateOfDeparture+" to "+destination+"or date"+dateOfDeparture);
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement(
+                "select * from Course where destination=? and dateOfDeparture=? and departureCity=?")){
+            preStmt.setString(1,destination);
+            preStmt.setString(2,dateOfDeparture);
+            preStmt.setString(3,departureCity);
+            try(ResultSet result=preStmt.executeQuery()) {
+                if (result.next()) {
+                    Course course = createCourse(result);
+                    logger.traceExit(course);
+                    return course;
+                }
+            }
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit("No task found with id {}", departureCity+" to "+destination+"  Date: "+dateOfDeparture);
+        return null;
+    }
+
+    @Override
+    public List<Course> findAll() {
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
         List<Course> courses=new ArrayList<>();

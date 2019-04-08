@@ -1,4 +1,5 @@
 package repository;
+
 /**
  *
  */
@@ -9,4 +10,5 @@ public interface IUserRepository<Integer, User> {
     void update(int id, User entity);
     User findOne(String userName);
     Iterable<User> findAll();
+    boolean logIn(User user);
 }

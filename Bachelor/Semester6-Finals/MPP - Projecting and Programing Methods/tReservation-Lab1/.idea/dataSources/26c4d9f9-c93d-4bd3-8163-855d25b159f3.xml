@@ -47,7 +47,6 @@
     </column>
     <index id="16" parent="6" name="Course_courseId_uindex">
       <ColNames>courseId</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="17" parent="6" name="Course_pk">
@@ -73,7 +72,6 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>seatNumber
 courseId</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="22" parent="7" name="Seats_pk">
@@ -102,13 +100,11 @@ courseId</ColNames>
     </column>
     <index id="26" parent="8" name="User_userName_uindex">
       <ColNames>userName</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="27" parent="8" name="sqlite_autoindex_User_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userName</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="28" parent="8" name="User_pk">

@@ -1,12 +1,13 @@
 package repository;
 
-import model.Course;
 import model.Seats;
-import model.SeatsKey;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -15,7 +16,7 @@ import java.util.Properties;
  *
  *
  */
-public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
+public class SeatsRepository implements ISeatsRepository<SeatsHelper,Seats> {
     private JdbcUtils dbUtils;
 
     private static final Logger logger= LogManager.getLogger();
@@ -61,13 +62,13 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
     }
 
     @Override
-    public void delete(SeatsKey seatsKey) {
-        logger.traceEntry("deleting Seats with {}",seatsKey.getSeatsNr()+"and" + seatsKey.getCourseId());
+    public void delete(SeatsHelper seatsHelper) {
+        logger.traceEntry("deleting Seats with {}",seatsHelper.getSeatsNr()+"and" + seatsHelper.getCourseId());
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement(
                 "update main.Seats set Seats.seatClient = '-' where Seats.seatNumber=? AND main.Seats.courseId=?")){
-            preStmt.setInt(1,seatsKey.getSeatsNr());
-            preStmt.setInt(2,seatsKey.getCourseId());
+            preStmt.setInt(1,seatsHelper.getSeatsNr());
+            preStmt.setInt(2,seatsHelper.getCourseId());
             int result=preStmt.executeUpdate();
         }catch (SQLException ex){
             logger.error(ex);
@@ -77,16 +78,17 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
     }
 
     @Override
-    public void update(SeatsKey seatsKey, Seats entity) {
+    public void update(SeatsHelper seatsHelper, String clientName) {
         //To do
-        logger.traceEntry("reserving Seats with {}",seatsKey.getSeatsNr()+"and" + seatsKey.getCourseId());
+        logger.traceEntry("reserving Seats with {}",seatsHelper.getSeatsNr()+"and" + seatsHelper.getCourseId());
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement(
-                "update main.Seats set Seats.seatClient = ? where Seats.seatNumber=? AND main.Seats.courseId=?")){
-            preStmt.setString(1,entity.getSeatClient());
-            preStmt.setInt(2,seatsKey.getSeatsNr());
-            preStmt.setInt(3,seatsKey.getCourseId());
+                "update Seats set seatClient = ? where seatNumber=? AND courseId=?")){
+            preStmt.setString(1,clientName);
+            preStmt.setInt(2,seatsHelper.getSeatsNr());
+            preStmt.setInt(3,seatsHelper.getCourseId());
             int result=preStmt.executeUpdate();
+            System.out.println("Seat: "+ seatsHelper.getSeatsNr()+" "+seatsHelper.getCourseId()+" "+clientName);
         }catch (SQLException ex){
             logger.error(ex);
             System.out.println("Error DB "+ex);
@@ -95,14 +97,14 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
     }
 
     @Override
-    public Seats findOne(SeatsKey seatsKey) {
-        logger.traceEntry("finding Seats with id {} ",seatsKey.getSeatsNr()
-                +"from course: "+seatsKey.getCourseId());
+    public Seats findOne(SeatsHelper seatsHelper) {
+        logger.traceEntry("finding Seats with id {} ",seatsHelper.getSeatsNr()
+                +"from course: "+seatsHelper.getCourseId());
         Connection con=dbUtils.getConnection();
         try(PreparedStatement preStmt=con.prepareStatement(
                 "select * from main.Seats where seatNumber=? AND courseId=?")){
-            preStmt.setInt(1,seatsKey.getSeatsNr());
-            preStmt.setInt(2,seatsKey.getCourseId());
+            preStmt.setInt(1,seatsHelper.getSeatsNr());
+            preStmt.setInt(2,seatsHelper.getCourseId());
             try(ResultSet result=preStmt.executeQuery()) {
                 if (result.next()) {
                     Seats Seats = createSeats(result);
@@ -114,8 +116,8 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
             logger.error(ex);
             System.out.println("Error DB "+ex);
         }
-        logger.traceExit("No Seat found with id {}", seatsKey.getSeatsNr()
-                +"from course: "+seatsKey.getCourseId());
+        logger.traceExit("No Seat found with id {}", seatsHelper.getSeatsNr()
+                +"from course: "+seatsHelper.getCourseId());
 
         return null;
     }
@@ -141,7 +143,6 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
         return seats;
     }
 
-
     private Seats createSeats(ResultSet result) throws SQLException {
         int SeatsNumber = result.getInt("seatNumber");
         int courseId = result.getInt("courseId");
@@ -149,13 +150,14 @@ public class SeatsRepository implements ISeatsRepository<SeatsKey,Seats> {
         return new Seats(SeatsNumber,courseId,seatClient);
     }
 
-    public Iterable<Seats> getSeatsFrom(Course course){
+    @Override
+    public Iterable<Seats> findAllByCourse(int courseId){
         logger.traceEntry();
         Connection con=dbUtils.getConnection();
         List<Seats> seats=new ArrayList<>();
         try(PreparedStatement preStmt=con.prepareStatement(
                 "select * from main.Seats where courseId=?")) {
-            preStmt.setInt(1,course.getCourseId());
+            preStmt.setInt(1,courseId);
             try(ResultSet result=preStmt.executeQuery()) {
                 while (result.next()) {
                     Seats seat = createSeats(result);

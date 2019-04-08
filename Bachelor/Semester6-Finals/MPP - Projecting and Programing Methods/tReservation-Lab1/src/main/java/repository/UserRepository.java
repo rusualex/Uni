@@ -136,6 +136,32 @@ public class UserRepository implements IUserRepository<String,User> {
         return Users;
     }
 
+    @Override
+    public boolean logIn(User user) {
+        logger.traceEntry("logging user in with {0} and {1} ",user.getUserName(),user.getPassWord());
+        Connection con=dbUtils.getConnection();
+
+        try(PreparedStatement preStmt=con.prepareStatement("select * from main.User where userName=? and userPassword=?")){
+            preStmt.setString(1,user.getUserName());
+            preStmt.setString(2,user.getPassWord());
+            try(ResultSet result=preStmt.executeQuery()) {
+                if (result.next()) {
+                    User userReturned = createUser(result);
+                    logger.traceExit(userReturned);
+                    if(userReturned!=null)
+                    return true;
+                    else return  false;
+                }
+            }
+
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.out.println("Error DB "+ex);
+        }
+        logger.traceExit("No task found with name {}", user.getUserName());
+        return false;
+    }
+
 
     private User createUser(ResultSet result) throws SQLException {
         String userName = result.getString("userName");

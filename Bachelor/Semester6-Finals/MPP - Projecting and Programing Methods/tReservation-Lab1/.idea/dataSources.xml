@@ -10,7 +10,7 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="tReservation.sqlite" uuid="73dd5499-7caa-44f3-80dc-9692754ace74">
+    <data-source source="LOCAL" name="tReservation.sqlite" uuid="0cce7421-b269-4eb6-9a91-497f97014648">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

@@ -10,7 +10,7 @@
       <auth-required>false</auth-required>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
-    <data-source name="tReservation.sqlite" uuid="73dd5499-7caa-44f3-80dc-9692754ace74">
+    <data-source name="tReservation.sqlite" uuid="0cce7421-b269-4eb6-9a91-497f97014648">
       <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
